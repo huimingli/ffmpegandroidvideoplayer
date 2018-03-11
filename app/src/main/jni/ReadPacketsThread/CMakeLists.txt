@@ -1,0 +1,2 @@
+add_library(ReadPacketsThread SHARED ReadPacketsThread.cpp)
+target_link_libraries(ReadPacketsThread avformat Media)
